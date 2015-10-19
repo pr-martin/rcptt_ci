@@ -13,3 +13,11 @@ if [ -d "regressionSuite" ]; then
 else
    git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch master
 fi
+
+if [ -d "smaccm" ]; then
+   cd smaccm
+   git pull
+   cd ..
+else
+   git clone https://github.com/smaccm/smaccm.git smaccm --branch develop
+fi
