@@ -11,5 +11,5 @@ if [ -d "regressionSuite" ]; then
    git pull
    cd ..
 else
-   git clone https://github.com/pr-martin/rcptt_ci.git regressionSuite --branch master
+   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch master
 fi
