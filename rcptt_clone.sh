@@ -14,8 +14,8 @@ else
    git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch master
 fi
 
-if [ -d "smaccm" ]; then
-   cd smaccm
+if [ -d "./osate2_workspace/smaccm" ]; then
+   cd ./osate2_workspace/smaccm
    git pull
    cd ..
 else

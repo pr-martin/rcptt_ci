@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="net.certware.feature.sacm:1.1.0.201504241042"/>
+		<item value="net.certware.feature:1.2.3.201504241042"/>
+		<item value="org.eclipse.cvs:1.4.100.v20150204-1700"/>
+		<item value="org.eclipse.draw2d.sdk:3.9.101.201408150207"/>
+		<item value="org.eclipse.draw2d:3.9.101.201408150207"/>
+		<item value="org.eclipse.egit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.emf.codegen.ecore.ui:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen.ecore:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen.ui:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.codegen:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.common.ui:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.common:2.10.1.v20150123-0348"/>
+		<item value="org.eclipse.emf.converter:2.10.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.databinding.edit:1.4.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.databinding:1.4.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.doc:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore.edit:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore.editor:2.10.1.v20150123-0452"/>
+		<item value="org.eclipse.emf.ecore:2.10.2.v20150123-0348"/>
+		<item value="org.eclipse.emf.edit.ui:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.emf.edit:2.10.1.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ecore.editor:2.9.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ecore:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping.ui:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.mapping:2.8.0.v20150123-0452"/>
+		<item value="org.eclipse.emf.query.doc:1.8.0.201405281426"/>
+		<item value="org.eclipse.emf.query.ocl:1.8.0.201405281426"/>
+		<item value="org.eclipse.emf.query:1.8.0.201405281426"/>
+		<item value="org.eclipse.emf.transaction.doc:1.8.0.201405281451"/>
+		<item value="org.eclipse.emf.transaction:1.8.0.201405281451"/>
+		<item value="org.eclipse.emf.validation.doc:1.8.0.201405281429"/>
+		<item value="org.eclipse.emf.validation.ocl:1.8.0.201405281429"/>
+		<item value="org.eclipse.emf.validation:1.8.0.201405281429"/>
+		<item value="org.eclipse.emf.workspace.doc:1.8.0.201405281451"/>
+		<item value="org.eclipse.emf.workspace:1.8.0.201405281451"/>
+		<item value="org.eclipse.emf:2.10.2.v20150123-0452"/>
+		<item value="org.eclipse.gef.sdk:3.9.101.201408150207"/>
+		<item value="org.eclipse.gef:3.9.101.201408150207"/>
+		<item value="org.eclipse.gmf.examples.runtime.ui.pde:1.8.0.201408201453"/>
+		<item value="org.eclipse.gmf.runtime.notation.sdk:1.8.0.201405281433"/>
+		<item value="org.eclipse.gmf.runtime.notation:1.8.0.201405281433"/>
+		<item value="org.eclipse.gmf.runtime.sdk:1.8.1.201408201453"/>
+		<item value="org.eclipse.gmf:1.8.1.201408201453"/>
+		<item value="org.eclipse.graphiti.feature:0.11.2.v20150204-0954"/>
+		<item value="org.eclipse.help:2.0.103.v20150204-1700"/>
+		<item value="org.eclipse.jdt:3.10.1.v20150204-1700"/>
+		<item value="org.eclipse.jgit:3.4.2.201412180340-r"/>
+		<item value="org.eclipse.m2e.logback.feature:1.5.1.20150109-1820"/>
+		<item value="org.eclipse.m2m.atl.doc:3.5.0.v201405260755"/>
+		<item value="org.eclipse.m2m.atl.examples:3.5.0.v201405260755"/>
+		<item value="org.eclipse.m2m.atl:3.5.0.v201405260755"/>
+		<item value="org.eclipse.ocl.doc:3.4.1.v20141027-1335"/>
+		<item value="org.eclipse.ocl.edit:5.0.0.v20140524-1436"/>
+		<item value="org.eclipse.ocl.ui:2.0.0.v20140819-1612"/>
+		<item value="org.eclipse.ocl.uml:5.0.2.v20140725-2242"/>
+		<item value="org.eclipse.ocl:3.4.2.v20140725-2242"/>
+		<item value="org.eclipse.pde:3.10.1.v20150204-1700"/>
+		<item value="org.eclipse.platform:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.rcp:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.sdk:4.4.2.v20150204-1700"/>
+		<item value="org.eclipse.uml2.codegen.ecore.ui:2.0.2.v20150202-0947"/>
+		<item value="org.eclipse.uml2.common.edit:2.0.0.v20150202-0947"/>
+		<item value="org.eclipse.uml2.common:2.0.1.v20150202-0947"/>
+		<item value="org.eclipse.uml2.uml.edit:5.0.2.v20150202-0947"/>
+		<item value="org.eclipse.uml2.uml:5.0.2.v20150202-0947"/>
+		<item value="org.eclipse.uml2:5.0.2.v20150202-0947"/>
+		<item value="org.eclipse.xtext.ui:2.8.3.v201506010551"/>
+		<item value="org.eclipse.zest:1.5.101.201408150207"/>
+		<item value="org.osate.ba.feature:1.0.0.v20150624-1845"/>
+		<item value="org.osate.core.feature:2.1.2"/>
+		<item value="org.osate.ge.feature:2.1.2"/>
+		<item value="org.osate.plugins.feature:2.1.2"/>
+		<item value="org.osate.utils.feature:1.0.0.v20150624-1845"/>
+		<item value="org.osate.xtext.aadl2.errormodel.feature:2.1.2"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\prmarti1\smaccm\rcptt\osate2_workspace\smaccm\models"/>
+			<item value="C:\Users\prmarti1\smaccm\osate2\smaccm\models"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="265" key="DIALOG_X_ORIGIN"/>
+		<item value="264" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
