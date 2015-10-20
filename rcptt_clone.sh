@@ -17,7 +17,7 @@ fi
 if [ -d "./osate2_workspace/smaccm" ]; then
    cd ./osate2_workspace/smaccm
    git pull
-   cd ..
+   cd ../..
 else
    git clone https://github.com/smaccm/smaccm.git smaccm --branch develop
 fi
