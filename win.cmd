@@ -5,14 +5,13 @@ REM application under test (AUT) is located.
 REM SET AUT=C:\absolute\path\to\your\application\directory
 SET AUT=C:\eclipse\osate2-2.1.2-win32.win32.x86_64
 
-SET AUT_WS=.\osate2_workspace
-
 REM SET RUNNER=%USERPROFILE%\runner
 SET RUNNER=C:\eclipse\rcptt.runner-2.0.1\eclipse
 
 REM SET PROJECT=.
 SET PROJECT=.\regressionSuite\rcpttSuite
 
+REM SET AUT_WS=.\osate2_workspace
 
 REM Path to directory with test results, default is C:\Users\User\results
 SET RESULTS=%PROJECT%\..\results
@@ -28,7 +27,7 @@ java -jar %RUNNER%/plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-1540.j
  -application org.eclipse.rcptt.runner.headless ^
  -data %RESULTS%/runner-workspace/ ^
  -aut %AUT% ^
- -autWsPrefix %AUT_WS% ^
+ -autWsPrefix C:\jenkins\rcptt_ci\osate2_workspace ^
  -autConsolePrefix %RESULTS%/aut-output ^
  -htmlReport %RESULTS%/report.html ^
  -junitReport %RESULTS%/report.xml ^
