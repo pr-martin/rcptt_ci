@@ -6,14 +6,12 @@ echo Simple Build and Test Script
 curdir=$PWD
 printf '%s\n' $curdir
 
-if [ -d "./osate2_workspace/regressionSuite" ]; then
-   cd ./osate2_workspace/regressionSuite
+if [ -d "regressionSuite" ]; then
+   cd ./regressionSuite
    git pull
-   cd ../..
-else
-   cd osate2_workspace
-   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch small
    cd ..
+else
+   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch small
 fi
 
 if [ -d "./osate2_workspace/smaccm" ]; then
