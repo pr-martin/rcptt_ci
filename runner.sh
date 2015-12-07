@@ -1,8 +1,8 @@
 #! /bin/sh
 # Set properties below
-runnerPath=/path/to/runner
-autPath=/path/to/aut
-project=.
+runnerPath=/usr/lfs/ssd_v0/opt/rcptt.runner-2.0.1/eclipse
+autPath=./workspace/rcptt_ci/osate2-core/org.osate.build.product/target/products/osate2/linux/gtk/x86_64
+project=./workspace/rcptt_ci/regressionSuite/rcpttSuite
 
 # properties below configure all intermediate and result files
 # to be put in "results" folder next to a project folder. If
