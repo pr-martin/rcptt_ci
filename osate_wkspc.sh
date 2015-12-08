@@ -8,6 +8,7 @@ printf '%s\n' $curdir
 
 if [ -d "regressionSuite" ]; then
    cd ./regressionSuite
+   git reset --hard
    git pull
    cd ..
 else
@@ -16,6 +17,7 @@ fi
 
 if [ -d "./osate2_workspace/smaccm" ]; then
    cd ./osate2_workspace/smaccm
+   git reset --hard
    git pull
    cd ../..
 else
