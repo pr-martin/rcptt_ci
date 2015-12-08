@@ -1,7 +1,8 @@
 #!/bin/bash
 
-#alias ant='/usr/lfs/ssd_v0/opt/apache-ant-1.9.6/bin/ant'
-
+# ------------------------------------------------------------------------------
+# Clone the repositories required to build Osate2 from the sources.
+# ------------------------------------------------------------------------------
 echo "Checking CertWare -master"
 if [ -d "CertWare" ]; then
   cd CertWare
@@ -80,4 +81,40 @@ if [ -d "smaccm" ]; then
   cd ..
 else
   git clone https://github.com/smaccm/smaccm.git -b develop
+fi
+
+
+# ------------------------------------------------------------------------------
+# Clone the Regression Suite
+# ------------------------------------------------------------------------------
+if [ -d "regressionSuite" ]; then
+   cd ./regressionSuite
+   git reset --hard
+   git pull
+   cd ..
+else
+   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch small
+fi
+
+# ------------------------------------------------------------------------------
+# Create the workspace folder for Osate2 if it doesn't already exist.
+# ------------------------------------------------------------------------------
+if [ -d "./osate2_workspace" ]; then
+   printf 'osate2_workspace exists\n'
+else
+   mkdir osate2_workspace
+fi
+
+# ------------------------------------------------------------------------------
+# Clone the smaccm repository in to the Osate2 workspace
+# ------------------------------------------------------------------------------
+if [ -d "./osate2_workspace/smaccm" ]; then
+   cd ./osate2_workspace/smaccm
+   git reset --hard
+   git pull
+   cd ../..
+else
+   cd osate2_workspace
+   git clone https://github.com/smaccm/smaccm.git smaccm --branch develop
+   cd ..
 fi
