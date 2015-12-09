@@ -95,26 +95,3 @@ if [ -d "regressionSuite" ]; then
 else
    git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch small
 fi
-
-# ------------------------------------------------------------------------------
-# Create the workspace folder for Osate2 if it doesn't already exist.
-# ------------------------------------------------------------------------------
-if [ -d "./osate2_workspace" ]; then
-   printf 'osate2_workspace exists\n'
-else
-   mkdir osate2_workspace
-fi
-
-# ------------------------------------------------------------------------------
-# Clone the smaccm repository in to the Osate2 workspace
-# ------------------------------------------------------------------------------
-if [ -d "./osate2_workspace/smaccm" ]; then
-   cd ./osate2_workspace/smaccm
-   git reset --hard
-   git pull
-   cd ../..
-else
-   cd osate2_workspace
-   git clone https://github.com/smaccm/smaccm.git smaccm --branch develop
-   cd ..
-fi
