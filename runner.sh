@@ -1,8 +1,8 @@
 #! /bin/sh
 # Set properties below
-runnerPath=/path/to/runner
-autPath=/path/to/aut
-project=.
+runnerPath=/usr/lfs/ssd_v0/opt/rcptt.runner-2.0.1/eclipse
+autPath=./osate2-core/org.osate.build.product/target/products/osate2/linux/gtk/x86_64
+project=./regressionSuite/rcpttSuite
 
 # properties below configure all intermediate and result files
 # to be put in "results" folder next to a project folder. If
@@ -10,7 +10,8 @@ project=.
 
 testResults=$project/../results
 runnerWorkspace=$testResults/runner-workspace
-autWorkspace=$testResults/aut-workspace-
+#autWorkspace=$testResults/aut-workspace-
+autWorkspace=$autPath/osate2_workspace
 autOut=$testResults/aut-out-
 junitReport=$testResults/results.xml
 htmlReport=$testResults/results.html
@@ -26,4 +27,5 @@ java -jar $runnerPath/plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-154
      -autConsolePrefix $autOut \
      -htmlReport $htmlReport \
      -junitReport $junitReport \
-     -import $project
+     -import $project \
+     -reuseExistingWorkspace
