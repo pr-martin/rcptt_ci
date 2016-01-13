@@ -93,5 +93,5 @@ if [ -d "regressionSuite" ]; then
    git pull
    cd ..
 else
-   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch small
+   git clone https://github.com/pr-martin/regressionSuite.git regressionSuite --branch master
 fi
