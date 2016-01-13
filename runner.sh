@@ -10,8 +10,8 @@ project=./regressionSuite/rcpttSuite
 
 testResults=$project/../results
 runnerWorkspace=$testResults/runner-workspace
-#autWorkspace=$testResults/aut-workspace-
-autWorkspace=$autPath/osate2_workspace
+# autWorkspace=$autPath/osate2_workspace
+autWorkspace=/usr/lfs/ssd_v0/testing/agree/runtime-Osate2product
 autOut=$testResults/aut-out-
 junitReport=$testResults/results.xml
 htmlReport=$testResults/results.html
