@@ -28,4 +28,5 @@ java -jar $runnerPath/plugins/org.eclipse.equinox.launcher_1.3.100.v20150511-154
      -htmlReport $htmlReport \
      -junitReport $junitReport \
      -import $project \
-     -reuseExistingWorkspace
+     -reuseExistingWorkspace \
+     -testOptions "testExecTimeout=2700"
